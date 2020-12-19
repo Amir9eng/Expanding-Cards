@@ -12,6 +12,26 @@
      height: 100vh;
      overflow: hidden;
  }
-h1{
-    margin: 10vh;
+.container{
+    display: flex;
+    width: 90vw;
+}
+.panel{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: .7rem;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+.panel h3{
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 20px;
+    left: 20px;
 }
